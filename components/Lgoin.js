@@ -19,10 +19,8 @@ export const Login = () => {
 				</button>
 			</div>
 
-			<div className='w-full h-full'>
-				{/* BACKGROUND IMAGE */}
-				<Image src={'/login/bg.jpg'} layout={'fill'} objectFit={'cover'} />
-			</div>
+			{/* BACKGROUND IMAGE */}
+			<Image src={'/login/bg.jpg'} layout={'fill'} objectFit={'cover'} />
 
 		</div>
 	)
